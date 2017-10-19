@@ -11,8 +11,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>ENSAT Data Quality Report</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://img.hcharts.cn/highcharts/highcharts.js"></script> 
+        
+        <script src="https://code.highcharts.com/highcharts.js"></script>
         <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
         <script src="https://code.highcharts.com/highcharts-3d.js"></script>
 
         <script type="text/javascript">
@@ -234,9 +236,11 @@
         <div class="the whole page" style="margin:0 auto">
             <div class="header" style="background-image:url('head');background-repeat:no-repeat;
                  background-position:left top;height:126px;width:919px;margin:0 auto"></div>
+                 <div style="color:darkslateblue;width:919px;margin:0 auto;text-align: center;padding: 20px 0 20px 0">
+                     <b><h1 style="font-size: 45px">The Data Quality Report</h1></b></div>
                  <div>
                      <div style='margin:0 auto;width:919px'>
-                         <h1 style="color:gray;align-content: center" >❀ Overall Statistic</h1></div>
+                         <h1 style="color:gray;align-content: center;font-size: 24px" >❀ Overall Statistic</h1></div>
 
                 <div id="container" style="width:700px;height:400px;margin:0 auto"> 
 
@@ -301,7 +305,7 @@
 
                 <div>
                     <div style='margin:0 auto;width:919px'>
-                        <a style="font-size: 24px;color: gray;" href="#" onclick="showHide()">☆ Overall statistic</a></div>
+                        <a style="font-size: 24px;color: gray;" href="javascript:;" onclick="showHide()">☆ Overall statistic</a></div>
                     <div id = "showdiv" style="display:none;">
                         <p></p>
                         <div id="container1" style="width:500px;height:350px;margin: 0 auto">
@@ -358,7 +362,7 @@
                 </div>
                 <div>
                     <div style='margin:0 auto;width:919px'>
-                    <a style="font-size: 24px;color: gray;margin:0 auto;width:919px" href="#" onclick="showHide1()">☆ Eligibility statistic</a>
+                    <a style="font-size: 24px;color: gray;margin:0 auto;width:919px" href="javascript:;" onclick="showHide1()">☆ Eligibility statistic</a>
                     </div>
                     <div id = "showdiv1" style="display:none;">
                         <div style='margin:0 auto;width:919px'>
@@ -464,7 +468,7 @@
                 </div>
                 <div>
                     <div style='margin:0 auto;width:919px'>
-                    <a style="font-size: 24px;color: gray;" href="#" onclick="showHide2()">☆ Data completeness of specific items</a>
+                    <a style="font-size: 24px;color: gray;" href="javascript:;" onclick="showHide2()">☆ Data completeness of specific items</a>
                     </div>
                     <div id = "showdiv2" style="display:none;">
                         <div style='margin:0 auto;width:919px'>
